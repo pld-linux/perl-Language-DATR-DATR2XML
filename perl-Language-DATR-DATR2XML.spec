@@ -5,7 +5,7 @@ Summary:	Language::DATR::DATR2XML perl module
 Summary(pl):	Modu³ perla Language::DATR::DATR2XML
 Name:		perl-Language-DATR-DATR2XML
 Version:	0.901
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
