@@ -1,0 +1,34 @@
+--- Language-DATR-DATR2XML-0.901/DATR2XML.pm.orig	Wed Jun 20 00:17:06 2001
++++ Language-DATR-DATR2XML-0.901/DATR2XML.pm	Sat Jul 13 23:11:57 2002
+@@ -21,10 +21,10 @@
+ 	use DATR2XML;
+ 
+ 	undef $DATR2XML::includeNodePath;
+-	$datr -> set_stylesheet('D:/DATR/XSLT/datr.xsl');
++	$datr -> set_stylesheet('/home/XSLT/datr.xsl');
+ 
+-	$datr_eg1 = new DATR2XML('D:\DATR\perl\eg.dtr');
+-	$datr_eg2 = new DATR2XML('D:/DATR/perl/eg.dtr', "on");
++	$datr_eg1 = new DATR2XML('/home/DATR/perl/eg.dtr');
++	$datr_eg2 = new DATR2XML('/home/DATR/perl/eg.dtr', "on");
+ 	$datr_eg3 = new DATR2XML('http://somewhere/doc.dtr', "verbose");
+ 
+ 	viewAll $datr_eg1;
+@@ -39,7 +39,7 @@
+ 
+ 	save $datr_eg3;
+ 
+-	DATR2XML::convert('D:\DATR\XSLT\eg_opening.dtr');
++	DATR2XML::convert('/home/DATR/XSLT/eg_opening.dtr');
+ 
+ 
+ =head1 DESCRIPTION
+@@ -139,7 +139,7 @@
+ 
+ =cut
+ 
+-our $location_xsl = 'd:/DATR/XSLT/datr.xsl';
++our $location_xsl = 'http://www.leegoddard.com/DATR/XSLT/datr.xsl';
+ 
+ =item $location_dtd
+ 
