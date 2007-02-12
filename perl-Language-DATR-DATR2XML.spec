@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	DATR-DATR2XML
 Summary:	Language::DATR::DATR2XML perl module
-Summary(pl):	Modu≥ perla Language::DATR::DATR2XML
+Summary(pl.UTF-8):   Modu≈Ç perla Language::DATR::DATR2XML
 Name:		perl-Language-DATR-DATR2XML
 Version:	0.901
 Release:	3
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The DATR2XML package is a colleciton of files to provide XML support
 for Sussex-standard DATR.
 
-%description -l pl
-Pakiet DATR2XML to zestaw plikÛw maj±cych za zadanie dodanie obs≥ugi
+%description -l pl.UTF-8
+Pakiet DATR2XML to zestaw plik√≥w majƒÖcych za zadanie dodanie obs≈Çugi
 XML do DATR w standardzie Sussex.
 
 %prep
