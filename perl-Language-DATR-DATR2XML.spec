@@ -2,7 +2,7 @@
 %define		pdir	Language
 %define		pnam	DATR-DATR2XML
 Summary:	Language::DATR::DATR2XML perl module
-Summary(pl.UTF-8):   Moduł perla Language::DATR::DATR2XML
+Summary(pl.UTF-8):	Moduł perla Language::DATR::DATR2XML
 Name:		perl-Language-DATR-DATR2XML
 Version:	0.901
 Release:	3
