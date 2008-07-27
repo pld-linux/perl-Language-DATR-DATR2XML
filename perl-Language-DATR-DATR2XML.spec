@@ -5,7 +5,7 @@ Summary:	Language::DATR::DATR2XML perl module
 Summary(pl.UTF-8):	Moduł perla Language::DATR::DATR2XML
 Name:		perl-Language-DATR-DATR2XML
 Version:	0.901
-Release:	3
+Release:	4
 # same as perl but GPL (?)
 License:	GPL
 Group:		Development/Languages/Perl
