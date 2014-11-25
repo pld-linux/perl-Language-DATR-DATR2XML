@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Language
 %define		pnam	DATR-DATR2XML
+%include	/usr/lib/rpm/macros.perl
 Summary:	Language::DATR::DATR2XML perl module
 Summary(pl.UTF-8):	Moduł perla Language::DATR::DATR2XML
 Name:		perl-Language-DATR-DATR2XML
@@ -12,6 +12,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b532c10c4bb0cc5283fff817bab5391f
 Patch0:		%{name}-paths.patch
+URL:		http://search.cpan.org/dist/Language-DATR-DATR2XML/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-libwww
 BuildRequires:	rpm-perlprov >= 4.1-13
