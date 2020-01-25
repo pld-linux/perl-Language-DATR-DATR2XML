@@ -1,6 +1,5 @@
 %define		pdir	Language
 %define		pnam	DATR-DATR2XML
-%include	/usr/lib/rpm/macros.perl
 Summary:	Language::DATR::DATR2XML perl module
 Summary(pl.UTF-8):	Moduł perla Language::DATR::DATR2XML
 Name:		perl-Language-DATR-DATR2XML
